@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLUIKit_Example' do
+  pod 'WLUIKit', :path => '../'
+
+  target 'WLUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
