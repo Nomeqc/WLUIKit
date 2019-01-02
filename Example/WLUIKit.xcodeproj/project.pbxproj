@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		03D9E851B104163046D1ACAB /* Pods-WLUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLUIKit_Example/Pods-WLUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0982722702B3329ADF894931 /* WLUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WLUIKit.podspec; path = ../WLUIKit.podspec; sourceTree = "<group>"; };
+		0982722702B3329ADF894931 /* WLUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLUIKit.podspec; path = ../WLUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		538DEBA2EF682A3B0C811ECC /* Pods_WLUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* WLUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		699DA4DF2DE35DBDAA364798 /* Pods-WLUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUIKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLUIKit_Tests/Pods-WLUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		824F6EA737D0CDF4B9F88AC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		824F6EA737D0CDF4B9F88AC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9327A2645EE4C93ED4DC98F9 /* Pods-WLUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLUIKit_Tests/Pods-WLUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8C3D5E7A82ACA74EA80519A /* Pods_WLUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8023B1D05BABAC93470874 /* Pods-WLUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUIKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLUIKit_Example/Pods-WLUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FF7DBB9672A8FEFA935731AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF7DBB9672A8FEFA935731AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +143,7 @@
 		6003F593195388D20070C39A /* Example for WLUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				CF588E082109FA0D0069B97B /* Classes */,
 				6003F59C195388D20070C39A /* WLAppDelegate.h */,
 				6003F59D195388D20070C39A /* WLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +195,13 @@
 				824F6EA737D0CDF4B9F88AC8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CF588E082109FA0D0069B97B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
