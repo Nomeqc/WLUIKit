@@ -1,0 +1,23 @@
+{
+  "name": "WLUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of WLUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nomeqc@gmail.com/WLUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nomeqc@gmail.com": "xie5405@163.com"
+  },
+  "source": {
+    "git": "https://github.com/nomeqc@gmail.com/WLUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WLUIKit/Classes/**/*",
+  "public_header_files": "WLUIKit/Classes/**/*.h"
+}

@@ -1,0 +1,6 @@
+framework module WLUIKit {
+  umbrella header "WLUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
